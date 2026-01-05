@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/your-username/jenkins-docker-ci-cd'
+                git 'https://github.com/Adiparihar/jenkins-docker-ci-cd.git'
             }
         }
         stage('Build Docker Image') {
